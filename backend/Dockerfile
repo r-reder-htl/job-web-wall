@@ -1,4 +1,4 @@
-FROM node:16.13.1
+FROM node:18-bookworm
 WORKDIR /server
 EXPOSE 4000
 COPY ./package*.json ./
